@@ -3,31 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Mulheres em Tech</title>
 </head>
 
 <body>
     <nav class="navegacao">
-        <img src="./img/logo.png" alt="texto mulheres em tech" class="navegacao__logo">
-        <ul class="navegacao__menu">
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+        <img src="./img/logo.png" alt="texto mulheres em tech" class="logo">
+        <ul class="menu">
+            <li>
+                <a href="index.html" class="menu__link">Home</a>
+            </li>
+            <li>
+                <a href="sobre.html" target="_blank" class="menu__link">Sobre</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/mayara-manso-b6295b180/" target="_blank"
+                    class="menu__link">Contato</a>
+            </li>
         </ul>
     </nav>
 
     <section class="conteudo">
-        <div class="conteudo__container">
-            <aside class="conteudo__autora">
-                <img src="./img/Mayara.jpeg" alt="Foto da Mayara" title="Foto da Mayara" class="conteudo__foto">
+        <div class="container">
+            <aside class="autora">
+                <img src="./img/Mayara.jpeg" alt="Foto da Mayara" title="Foto da Mayara" class="autora__foto">
 
-                <p><span>Mayara Manso</span>Futura desenvolvedora Front-End</p>
+                <p><span class="autora__nome">Mayara Manso</span><br>Futura desenvolvedora Front-End</p>
 
             </aside>
-            <article class="conteudo__artigo">
-                <h2>Conheça algumas mulheres na técnologia</h2>
-                <ol>
+            <article class="artigo">
+                <h2 class="artigo__titulo">Conheça algumas mulheres na técnologia</h2>
+                <ol class="">
                     <li>Ada Lovelace</li>
                     <li>Maragareth Hamilton</li>
                     <li>Grace Hopper</li>
@@ -39,6 +47,12 @@
             </article>
         </div>
     </section>
+    <footer class="rodape">
+        <img src="./img/reprograma.png" alt="logo da reprogama" class="logo--pequeno" title="Logo reprograma">
+        <p>Desenvoldido pela desenvolvedora Mayara Manso</p>
+    </footer>
 </body>
+
+
 
 </html>
