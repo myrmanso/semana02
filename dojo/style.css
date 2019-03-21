@@ -1,0 +1,140 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 3px 4px -2px rgba(0,0,0, 0.15);
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding-left: 0;
+    list-style: none;
+    font-size: 10px;
+}
+
+.lista li{
+    margin: 0 15px 0 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.btn--img {
+    background: transparent;
+    border: none;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+}
+.btn--roxo{
+    background-color: #993399;
+    border-radius: 5px;
+}
+
+
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 0 30px 100px; */
+
+}
+
+.info{
+    padding-left: 50px;
+    width: 40%; /*40% do tamanho da mãe */
+}
+
+.info > h1 {
+    font-size: 26px;
+}
+
+.btn--rosa{
+    background-color: #ea4862;    
+}
+
+.lista__link{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lista__img{
+    margin: 2px;
+}
+
+.img--video{
+    width: 500px;
+}
+
+
+.depoimentos {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titulo1{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.artigos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.artigos__depoimentos{
+    width: 20vw;
+    margin: 0 50px;
+}
+
+.artigos__depoimentos > p {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.artigos__depoimentos > blockquote {
+    font-size: 11px;
+    margin: 0;
+}
+
+.titulos--h6{
+    text-align: justify;
+    border-bottom: 2px solid  #7e04ce;
+    font-size: 17px;
+}
+
+.rodape{
+    background-color: #ff0066;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin-top: 20px;
+}
+    

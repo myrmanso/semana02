@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Preencha aqui</h1>
+
+    <section>
+        <!-- <form action="referência do arquivo de back que é pra onde vai od dados que pega" method="atributo que fala o que vc vai fazer com esses dados" -->
+        <form action="./sucesso.html" method="POST">
+            <!-- <input (informação dada pelo usuário) type(tipo da informação que ele vai receber)="texto, password, email," placeholder=texto que vai estar escrito dentro da caixa de formulário name=um nome pra ele> -->
+            <!-- <label for="atributo que vincula o name do input">Etiqueta</label> -->
+            <div>
+                <label for="nome da pessoa">Seu Nome</label>
+                <input type="text" placeholder="Escreva seu nome" name="nome-do-pessoa">
+            </div>
+            <div>
+                <label for="senha-da-pessoa">Sua Senha</label>
+                <input type="password" placeholder="Senha" name="senha-da-pessoa">
+            </div>
+
+            <div>
+                <label for="email-da-pessoa">Seu E-mail</label>
+                <input type="email" placeholder="Digite seu e-mail" name="email-da-pessoa">
+            </div>
+
+            <div>
+                <label for="idade-da-pessoa">Sua Idade</label>
+                <input type="number" placeholder="Coloque sua idade" name="idade-da-pessoa">
+            </div>
+
+            <div>
+                <!-- radio vc precisa marcar alguma opção. Como todas pertencem ao mesmo nome vc marca a penas uma opção. Não consegue marcar e desmarcar -->
+                <label for="profissao">Selecione o que você faz:</label>
+                <input type="radio" value="programadora" name="profissao"><span>Programadora</span>
+
+                <input type="radio" value="designer" name="profissao"><span>Designer</span>
+
+                <input type="radio" value="arquiteta" name="profissao"><span>Arquiteta</span>
+
+            </div>
+            <div>
+                <label for="cidade-da-pessoa">Sua Cidade</label>
+                <select name="cidade-da-pessoa">
+                    <!-- <option>tag usada SEMPRE dentro do select</option> -->
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                    <option value="ribeirao-pires">Ribeirão Pires</option>
+                </select>
+            </div>
+
+            <div>
+                <label name="vida">Conte sua história</label>
+                <textarea name="vida" rows="3" placeholder="Estudei na reprograma"></textarea>
+            </div>
+
+            <div>
+                <!-- consegue maracr e desmarcar e selecionar mais de uma opção, ou seja, pode enviar um valor, nenhum valor, ou vários valores -->
+                <label for="usuaria-talentosa">Declaro que sou uma pessoa talentosa</label>
+                <input type="checkbox" name="usuaria-talentosa">
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </section>
+
+</body>
+
+</html>
